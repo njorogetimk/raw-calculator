@@ -1,0 +1,28 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(90, 86, 250);
+  font-size: 2rem;
+}
+
+.answer {
+  text-align: right;
+  border-radius: 7px;
+  background-color: rgb(100, 100, 250);
+}
+
+.keys {
+  margin-top: 1.5rem;
+  background-color: rgb(100, 100, 220);
+  border-radius: 7px;
+}
+.keys div {
+  text-align: center;
+}
+
+.keys div span {
+  cursor: pointer;
+  /* border: 2px solid black; */
+  background-color: white;
+  padding: 0 25px;
+  box-shadow: 16px 16px 6px blur;
+}
