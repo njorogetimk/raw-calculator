@@ -1,18 +1,24 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  background-color: rgb(90, 86, 250);
+  background-color: rgba(20, 52, 90, 0.9);
   font-size: 2rem;
+}
+
+.calculator {
+  width: 30rem;
+  margin: auto;
 }
 
 .answer {
   text-align: right;
   border-radius: 7px;
-  background-color: rgb(100, 100, 250);
+  background-color: rgb(8, 8, 34);
+  color: white;
 }
 
 .keys {
   margin-top: 1.5rem;
-  background-color: rgb(100, 100, 220);
+  background-color: rgb(8, 8, 34);
   border-radius: 7px;
 }
 .keys div {
@@ -25,4 +31,11 @@ body {
   background-color: white;
   padding: 0 25px;
   box-shadow: 16px 16px 6px blur;
+}
+
+#reset span,
+#del span,
+#equals span {
+  background-color: rgba(20, 52, 90, 0.9);
+  color: white;
 }
